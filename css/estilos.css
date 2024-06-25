@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cabecera{
+    background-color: #800400;
+    padding: 5px 10%;
+    height: 85px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    width: 100%;
+    top: 0%;
+    left: 0;
+}
+.cabecera .acomo{
+    width: 10%;
+    height: 80%;
+    
+}
+.cabecera ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 0 20px;
+}
+.cabecera ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    transition-property: transform;
+    transition-duration: .3s;
+    transition-delay: .0s;
+    transition-timing-function: ease-out;
+}
+.cabecera ul li:hover a{
+    color: gold;
+    display: block;
+    transform:rotate(360deg);
+}
+.cartelera{
+    padding: 5px 10%;
+    background-color: white;
+}
+.cartelera h1{
+    padding: 10px 0;
+    border-bottom: 1px solid #000080;
+    margin-bottom: 10px;
+}
+.cartelera .opciones{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.imgpeli{
+    width: 150px;
+    height: 300px; 
+}
+.cartelera .opciones .pelicula-cartelera{
+    width: 18%;
+    margin: 5%;
+    padding: 10px;
+    border: 1px solid white;
+    text-align: center;
+}
+
+.cartelera .opciones .pelicula-cartelera img{
+   width: 100%;
+}
+.cartelera .opciones .pelicula-cartelera:hover{
+    border: 1px solid black;
+}
+.pelicula-cartelera .detalle{
+    display: block;
+    background-color: #000080;
+    padding: 3px;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 5px;
+}
+.pelicula-cartelera .compra{
+    display: block;
+    background-color: #8B0000	;
+    padding: 3px;
+    text-decoration: none;
+    color: white;
+}
+.proximamente{
+    padding: 5px 10%;
+    background-color: white;
+}
+.proximamente h1{
+    padding:  1px 0;
+    border-bottom: 1px solid #000080;
+    margin-bottom: 10px;
+}
+.proximamente .opciones{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.proximamente .opciones .pelicula-proximamente{
+    width: 18%;
+    margin: 5%;
+    padding: 10px;
+    border: 1px solid white;
+    text-align: center;
+}
+.proximamente .detalle{
+    display: block;
+    background-color: #000080;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+.proximamente .opciones .pelicula-proximamente:hover{
+    border: 1px solid black;
+}
